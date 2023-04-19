@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+
+    </head>
+    <body>
+
+        <script>
+            function pularLinha1() {   
+                document.write("<br>");
+
+            };
+
+            function pularLinha2() {
+                document.write("<br>");
+                document.write("<br>");
+
+            };
+
+            function pularLinha3() {
+                document.write("<br>");
+                document.write("<br>");
+                document.write("<br>");
+
+            };
+
+            function mostrar(menssagem) {
+                document.write(menssagem);
+                pularLinha2();
+            }
+
+            let numeroPensado = Math.round(Math.random() * 10);
+            console.log(numeroPensado);
+            let chute = parseInt(prompt("Digite seu chute!"));
+
+            if (chute == numeroPensado) {
+                mostrar("Você acertou!");
+
+            } else {
+                mostrar("Você errou, o numero pensado foi " + numeroPensado);
+            }
+
+
+
+
+
+
+        </script>
+    </body>
+</html>

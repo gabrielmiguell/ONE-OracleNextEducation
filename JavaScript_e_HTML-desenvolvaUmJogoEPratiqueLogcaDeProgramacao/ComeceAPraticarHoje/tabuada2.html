@@ -1,0 +1,45 @@
+<DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+
+        <script>
+            function pularLinha2() {
+                document.write("<br>");
+                document.write("<br>");
+
+            };
+
+            function mostrar(menssagem) {
+                document.write(menssagem);
+                pularLinha2();
+            };
+
+            mostrar("COMEÇO");
+            mostrar("COMEÇO");
+
+
+            let mult = 1;
+
+            while(mult <= 10) {
+                mostrar(7 * mult);
+                mult++;
+
+            }
+    
+            mostrar("FIM");
+
+
+            for(let multiplicador2 = 1; multiplicador2 <= 10; /* multiplicador2++ ou */multiplicador2 = multiplicador2 + 1) {
+
+                mostrar(7 * multiplicador2)
+            };
+
+            mostrar("FIM");
+
+
+
+        </script>
+    </body>
+
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+
+    </head>
+    <body>
+
+        <script>
+            function pularLinha1() {   
+                document.write("<br>");
+
+            };
+
+            function pularLinha2() {
+                document.write("<br>");
+                document.write("<br>");
+
+            };
+
+            function pularLinha3() {
+                document.write("<br>");
+                document.write("<br>");
+                document.write("<br>");
+
+            };
+
+            function mostrar(menssagem) {
+                document.write(menssagem);
+                pularLinha2();
+            }
+
+            for(let linha = 1; linha <= 3; linha++) {
+                for(var coluna = 1; coluna <= 10; coluna++) {
+                    document.write("*");
+                }
+                pularLinha1();
+            }
+
+
+        </script>
+    </body>
+</html>
