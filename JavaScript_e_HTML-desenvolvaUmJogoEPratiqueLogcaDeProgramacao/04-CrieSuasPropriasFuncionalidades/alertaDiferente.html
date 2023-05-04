@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" IE="edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Gabriel Miguel">
+        <meta name="keyword" content="">
+        <meta name="description" content="">
+
+        <title>Alerta com Asteriscos</title>
+
+        <style>
+            body{
+                background: darkcyan;
+                color: aliceblue;
+                font-size: 50px;
+                font-family: Arial, Helvetica, sans-serif;
+
+            }
+        </style>
+    </head>
+    <body>
+
+        <script>
+            function pularLinha2(){
+                document.write("<br><br>");
+
+            }
+
+            function asteriscos(menssagem) {
+                document.write("***" + menssagem + "***");
+
+            }
+            let idade1 = 10;
+            let idade2 = 20;
+            let idade3 = 30;
+            let totalIdade = idade1 + idade2 + idade3;
+
+            let mediaIdade = totalIdade / 3;
+
+            asteriscos("Total de idades é " + totalIdade + "." );
+            pularLinha2();
+            asteriscos("A média das idades é " + mediaIdade + "." );
+
+        </script>
+    </body>
+</html>
